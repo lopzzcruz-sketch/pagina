@@ -1,0 +1,44 @@
+body {
+background-color: #00FFCC;
+font-family: sans-serif;
+margin: 0;
+padding: 0;
+}
+
+header, footer{
+background-color: #CCCCCC;
+color: #000000;
+padding: 3em;
+text-align: center;
+}
+
+.contenedor{                                                                                                                                                                                                                                        
+    display: flex;
+    padding: 1em;
+}
+
+.principal{
+    flex: 2;
+    padding: 1em;
+}
+
+.lateral{
+    flex: 1;
+    padding: 1em;
+    background-color: FFFFFF;
+}
+
+@media (max-width: 768px){
+    .contenedor{
+        flex-direction: column;
+    }
+    header{
+        color: #FF0000;
+    }
+    footer{
+        font-size: 20px;
+        color: #CC00CC;
+        font-family: Algerian;
+    }
+}
+
